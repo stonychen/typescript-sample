@@ -97,7 +97,6 @@ module.exports = {
           },
         ],
         'no-extra-bind': 2,
-        'no-floating-decimal': 2,
         'no-implicit-coercion': [
           2,
           {
@@ -356,8 +355,4 @@ module.exports = {
       }
     }
   ],
-
-  'extends': [
-    'eslint:recommended'
-  ]
 }
