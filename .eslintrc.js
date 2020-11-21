@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  parser: "babel-eslint",
+
   env: {
     browser: true,
     node: true,
@@ -14,12 +14,13 @@ module.exports = {
   },
 
   extends: [
+    "plugin:react/recommended",
     'eslint:recommended'
   ],
 
   parserOptions: {
-    parser: '@typescript-eslint/parser',
-    ecmaVersion: 7,
+    parser: 'babel-eslint',
+    ecmaVersion: 2018,
     sourceType: 'module',
     ecmaFeatures: {
       globalReturn: false,
